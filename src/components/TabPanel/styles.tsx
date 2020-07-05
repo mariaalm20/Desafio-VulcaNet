@@ -158,3 +158,8 @@ export const SelectPlan = styled.p`
   font-size: 18px;
   color: rgb(245, 245, 245);
 `;
+
+export const ColumnFooter = styled.div`
+  display: flex;
+  flex-direction: column;
+`;

@@ -23,6 +23,7 @@ import {
    Footer,
    Total,
    SelectPlan,
+   ColumnFooter
    } from './styles'
 
 import api from '../../services/api'
@@ -66,7 +67,7 @@ const TabPanel: React.FC<TypePlan> = ({
   })
 
   const [selectPlanMonth, setSelectPlanMonth] = useState(250)
-  const [selectPlanYear, setSelectPlanYear] = useState(120)
+  const [selectPlanYear, setSelectPlanYear] = useState(230)
 
   const [selectTypePlan, setSelectTypePlan] = useState('Plano 2.0')
 
@@ -207,7 +208,7 @@ const TabPanel: React.FC<TypePlan> = ({
         </Attendants>
         
         <Footer>
-        <ColumnAttendants>
+        <ColumnFooter>
          {isMonth ? (
            <>
             <Total>
@@ -228,7 +229,7 @@ const TabPanel: React.FC<TypePlan> = ({
           </>
          )}
           
-          </ColumnAttendants>
+          </ColumnFooter>
 
 
        <Button />
