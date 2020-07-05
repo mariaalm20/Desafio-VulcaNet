@@ -31,5 +31,5 @@ O **Desafio VulcaNet** é um desafio proposto pela empresa Vulca Net, no qual al
 :heavy_check_mark: Rodando a aplicação:
 - Clique em **Code**, no canto superior direito da tela
 - Copie a url do projeto e em seguida digite **git clone** procedido da url, no terminal
-- Em seguida entre na pasta do projeto pelo terminal e digit **yarn install**
+- Em seguida entre na pasta do projeto pelo terminal e digite **yarn install**
 - :tada: Por fim, digite **yarn start** para rodar a aplicação no navegador
