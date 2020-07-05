@@ -141,7 +141,7 @@ export const Footer = styled.div`
   bottom: 0px;
   margin-top: 10px;
   margin-left: 0px;
-  margin-right: 700px;
+  margin-right: 745px;
   background: rgb(0, 166, 206);
   border-radius: 0px 0px 15px 15px;
 
